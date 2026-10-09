@@ -2,7 +2,7 @@
 
 [Back to the docs](README.md)
 
-These are the **129 commands available in SCC 3.4.2**. Start with `/start` if you'd rather browse menus. In Discord, type a command to see its options and autocomplete suggestions.
+These are the **129 commands available in SCC 3.4.3**. Start with `/start` if you'd rather browse menus. In Discord, type a command to see its options and autocomplete suggestions.
 
 Options marked **required** must be filled in. Replace `<value>` with your own choice; don't type the angle brackets.
 
