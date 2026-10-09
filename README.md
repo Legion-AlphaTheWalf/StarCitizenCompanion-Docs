@@ -1,6 +1,6 @@
 # Star Citizen Companion
 
-Find a crew, plan a trade run, or check a ship without leaving Discord. SCC also helps your community organise activities, share materials, and plan crafting.
+I'm **AlphaTheWalf**, and I run SCC. It helps you find a crew, plan a trade run, or check a ship without leaving Discord. You can also organise community activities, share materials, and plan crafting.
 
 **Run `/start` to get going.** Choose your language, price preferences, and whether replies should be private or public. Then pick a task and follow the buttons. You can still use slash commands to jump straight to a tool.
 
@@ -35,10 +35,10 @@ Use **Close** to remove a menu or **Keep result** to leave the card without butt
 
 ## Help and feedback
 
-Use `/help` for guidance, `/suggest` for ideas, `/bug` for problems, or `/report_data` for a wrong price, item, or location. These reports go to the bot owner for review; they aren't posted publicly.
+Use `/help` for guidance, `/suggest` for ideas, `/bug` for problems, or `/report_data` for a wrong price, item, or location. I review these reports privately; they aren't posted publicly.
 
-You can also [open a GitHub issue](https://github.com/Legion-AlphaTheWalf/StarCitizenCompanion-Docs/issues/new/choose). For private account or data questions, or a security concern, contact **AlphaTheWalf** in Discord or [by email](mailto:AlphaTheWalf@gmail.com). Please keep private details out of public issues.
+You can also [open a GitHub issue](https://github.com/Legion-AlphaTheWalf/StarCitizenCompanion-Docs/issues/new/choose). For private account or data questions, or a security concern, contact me (**AlphaTheWalf**) in Discord or [by email](mailto:AlphaTheWalf@gmail.com). Please keep private details out of public issues.
 
-SCC 3.4.1 · Updated October 8, 2026
+SCC 3.4.2 · Updated October 8, 2026
 
 SCC is a community project and is not affiliated with Cloud Imperium Games or Roberts Space Industries.
