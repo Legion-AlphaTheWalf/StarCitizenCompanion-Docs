@@ -2,6 +2,13 @@
 
 [Back to the docs](README.md)
 
+## 3.4.3 — October 8, 2026
+
+- Fixed **Force full refresh** skipping the Wiki's current game version. SCC now checks that version before reloading the related catalogs.
+- Kept a full-refresh request queued when an automatic pass is already running. Repeated requests are combined so they don't start duplicate full refreshes.
+- Added per-resource refresh failures, the last successful fetch, and when automatic refresh is due to my maintenance dashboard. The page updates while a refresh runs.
+- Moved older fallback caches into a separate section so they don't look like active resources that failed to refresh. Previous data stays available during provider outages.
+
 ## 3.4.2 — October 8, 2026
 
 - Fixed navigation buttons becoming unresponsive after a few activity changes. Quick clicks now update the same panel in order.
