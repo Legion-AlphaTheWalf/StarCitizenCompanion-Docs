@@ -2,7 +2,10 @@
 
 [Back to the docs](README.md)
 
-## 3.4.1 — October 8, 2026
+## 3.4.2 — October 8, 2026
+
+- Fixed navigation buttons becoming unresponsive after a few activity changes. Quick clicks now update the same panel in order.
+- Fixed private-panel Close and search-form returns. Keep result retains the current card without its controls.
 
 - Start trading, search for an item, or browse ships directly from Home. Open your personal settings from the activity menu.
 - Follow community note search results into the full note, then go back to the list. Empty searches keep the activity menu available.
