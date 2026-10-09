@@ -1,0 +1,21 @@
+name: Idea or documentation improvement
+description: Share an idea for SCC or its guides.
+title: "[Idea]: "
+body:
+  - type: markdown
+    attributes:
+      value: This issue is public, so please leave out private details. You can also send the bot owner an idea with /suggest in Discord.
+  - type: textarea
+    id: need
+    attributes:
+      label: What are you trying to do?
+      description: Tell us what you want to do, or where you got stuck.
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would help?
+      description: Describe your idea or the part of the guide you would change.
+    validations:
+      required: true
