@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Private account, data or security concern
+    url: https://github.com/Legion-AlphaTheWalf/StarCitizenCompanion-Docs/security/policy
+    about: Contact the bot owner privately about account, data, or security concerns.
