@@ -2,11 +2,11 @@
 
 [Back to the docs](README.md)
 
-These are the **129 commands available in SCC 3.4.0**. Start with `/start` if you'd rather browse menus. In Discord, type a command to see its options and autocomplete suggestions.
+These are the **129 commands available in SCC 3.4.2**. Start with `/start` if you'd rather browse menus. In Discord, type a command to see its options and autocomplete suggestions.
 
 Options marked **required** must be filled in. Replace `<value>` with your own choice; don't type the angle brackets.
 
-**Manager** commands need Manage Server permission or access as the bot owner. **Operator** commands are restricted to the bot owner. Other actions may depend on the server's enabled features, channel permissions, and who owns the activity or record.
+**Manager** commands need Manage Server permission; I also have access as SCC's maintainer. **Maintainer** commands are restricted to me (**AlphaTheWalf**). Other actions may depend on the server's enabled features, channel permissions, and who owns the activity or record.
 
 Settings, reports, account linking, and reminders stay private. Ordinary searches follow your reply preference; crew and support boards are shared in their channel.
 
@@ -40,7 +40,7 @@ Settings, reports, account linking, and reminders stay private. Ordinary searche
 | Command | Purpose | Options | Access notes |
 | --- | --- | --- | --- |
 | `/blueprint` | Explore a blueprint or open the Crafting menu | `query:<value>` — Blueprint or finished item; leave empty to open the Crafting menu | — |
-| `/bug` | Privately report an SCC problem to the bot owner | `description:<value>` **required** — What happened, what you expected, and which command was involved | — |
+| `/bug` | Send me a private report about an SCC problem | `description:<value>` **required** — What happened, what you expected, and which command was involved | — |
 | `/fuel_best` | Compare the cheapest cached hydrogen or quantum fuel locations | `fuel_type:<value>` **required** — Choose hydrogen fuel or quantum fuel | — |
 | `/help` | Browse SCC features, examples, and command categories | `category:<value>` — Choose a feature area to see its most useful commands | — |
 | `/item` | Explore an item, its ingredients, shops and sources, or open the menu | `query:<value>` — Item or material name; leave empty to open the Crafting menu | — |
@@ -48,21 +48,21 @@ Settings, reports, account linking, and reminders stay private. Ordinary searche
 | `/ping` | Check SCC's connection and Discord response time | None | — |
 | `/privacy` | See exactly what SCC stores, excludes, and keeps server-isolated | None | — |
 | `/report_data` | Privately flag an incorrect Star Citizen value, source, or location | `subject:<value>` **required** — Ship, item, mission, resource, terminal, or command with bad data<br>`correction:<value>` **required** — What SCC showed, what you believe is correct, and any source link | — |
-| `/reports` | Owner-only: review recent private bug reports and suggestions | `report_id:<value>` — Open a report's redacted preview before optional GitHub forwarding | Operator |
+| `/reports` | Review recent private bug reports and suggestions | `report_id:<value>` — Open a report's redacted preview before optional GitHub forwarding | Maintainer |
 | `/rsi_status` | Check official Star Citizen platform and game service status | None | — |
 | `/settings` | Choose your language, ship budget, pledge currency, and reply privacy | None | — |
 | `/start` | Start here with guided buttons for SCC's most useful features | None | — |
 | `/status` | Show Discord, provider, cache, RSI, and dashboard health | None | — |
 | `/suggest` | Privately suggest a new SCC feature or improvement | `suggestion:<value>` **required** — Describe the feature and how players or servers would use it | — |
-| `/sync_commands` | Owner-only: resync SCC slash commands and translations with Discord | None | Operator |
-| `/update` | Owner-only: refresh SCC's shared UEX, Wiki, and reference caches | `force:<value>` — Refresh even when the current cache is still considered fresh | Operator |
+| `/sync_commands` | Resync SCC slash commands and translations with Discord | None | Maintainer |
+| `/update` | Refresh SCC's shared UEX, Wiki, and reference caches | `force:<value>` — Refresh even when the current cache is still considered fresh | Maintainer |
 | `/where` | Find terminals, cities, moons, planets, and their parent locations | `query:<value>` **required** — Select or type a terminal or location name | — |
 
 ## analytics
 
 | Command | Purpose | Options | Access notes |
 | --- | --- | --- | --- |
-| `/analytics global` | Owner-only: show global anonymous command totals | `days:<value>` — Number of days to summarize, from 1 to 365 | Operator |
+| `/analytics global` | Show global anonymous command totals | `days:<value>` — Number of days to summarize, from 1 to 365 | Maintainer |
 | `/analytics server` | Show private anonymous command totals for this server | `days:<value>` — Number of days to summarize, from 1 to 365 | Manager |
 | `/analytics set` | Enable or disable optional anonymous analytics for this server | `enabled:<value>` **required** — Whether this server allows anonymous command totals | Manager |
 
@@ -80,7 +80,7 @@ Settings, reports, account linking, and reminders stay private. Ordinary searche
 | `/config features` | Choose which optional community workflows this server uses | `feature:<value>` — The optional feature to configure<br>`enabled:<value>` — Turn this feature on or off in this server | Manager |
 | `/config get` | List advanced SCC settings saved for this server | None | Manager |
 | `/config panel` | Post a reusable SCC button panel in this server channel | None | Manager |
-| `/config presence` | Operator-only: change SCC’s global Discord status and activity text | None | Operator |
+| `/config presence` | Change SCC’s global Discord status and activity text | None | Maintainer |
 | `/config set` | Set one advanced server-specific SCC value | `key:<value>` **required** — Setting name; suggestions show supported common keys<br>`value:<value>` **required** — New text value for this server | Manager |
 | `/config setup` | Set server defaults for SCC language, ship budget, currency, and reply privacy | None | Manager |
 
