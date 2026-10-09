@@ -8,7 +8,7 @@ Run `/start` and pick a task. **Crew** helps you join or plan a session; **Ships
 
 ## Do I need a website?
 
-Most features work in Discord. Optional Citizen iD linking opens a sign-in page. The bot owner's dashboard isn't needed to use SCC or manage it in your server.
+Most features work in Discord. Optional Citizen iD linking opens a sign-in page. My private dashboard is for maintaining SCC; you don't need it to use SCC or manage it in your server.
 
 ## What does account linking do?
 
@@ -40,11 +40,11 @@ Current menus reuse their reply and clear when they expire. Older messages may s
 
 ## How often does the data update?
 
-It depends on the source. Check the date and game version on a result; cached information may still appear during a provider outage. Use `/report_data` if something looks wrong. The bot owner can refresh sources with `/update`.
+It depends on the source. Check the date and game version on a result; cached information may still appear during a provider outage. Use `/report_data` if something looks wrong so I can check it. I can also refresh sources with `/update`.
 
 ## Can SCC see my Discord status?
 
-No. SCC doesn't monitor members' online, idle, or Do not disturb status. The owner can change SCC's own status and activity. Discord's [Streamer Mode](https://support.discord.com/hc/en-us/articles/218485407-Streamer-Mode-101) is a setting in your Discord app.
+No. SCC doesn't monitor members' online, idle, or Do not disturb status. I can change SCC's own status and activity. Discord's [Streamer Mode](https://support.discord.com/hc/en-us/articles/218485407-Streamer-Mode-101) is a setting in your Discord app.
 
 ## Is everything translated?
 
@@ -52,8 +52,8 @@ Navigation, setup, reply choices, and command descriptions support ten languages
 
 ## Where do my reports go?
 
-`/bug`, `/suggest`, and `/report_data` go to the bot owner for review. They aren't automatically posted to GitHub. Before forwarding a report to a private repository, the owner reviews it and can remove sensitive details. GitHub issues you open yourself here are public.
+I receive and review `/bug`, `/suggest`, and `/report_data` privately. They aren't automatically posted to GitHub. Before I forward a report to a private repository, I review it and can remove sensitive details. GitHub issues you open yourself here are public.
 
 ## How do I remove my data?
 
-Use `/identity unlink` to remove the saved account connection and display permissions. Revoking SCC in Citizen iD alone doesn't delete the connection already saved by SCC. For other access, correction, or removal requests, contact [AlphaTheWalf by email](mailto:AlphaTheWalf@gmail.com). Please keep private details out of public issues. See the [privacy policy](PRIVACY_POLICY.md).
+Use `/identity unlink` to remove the saved account connection and display permissions. Revoking SCC in Citizen iD alone doesn't delete the connection already saved by SCC. For other access, correction, or removal requests, [email me](mailto:AlphaTheWalf@gmail.com). Please keep private details out of public issues. See the [privacy policy](PRIVACY_POLICY.md).
