@@ -1,0 +1,32 @@
+name: Bug or confusing behavior
+description: Report an SCC problem or documentation mistake.
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This issue is public. Please leave out keys, passwords, and private account or server details. For a security or data concern, email AlphaTheWalf@gmail.com privately. You can also report a problem to the bot owner with /bug in Discord.
+  - type: input
+    id: version
+    attributes:
+      label: SCC version, if known
+      placeholder: "For example: 3.4.0"
+  - type: textarea
+    id: steps
+    attributes:
+      label: What did you do?
+      description: Which command or buttons did you use? List the steps so we can try it too.
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: What happened, and what did you expect?
+      description: Include the error message if there was one, with private details removed.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Anything else that helps?
+      description: For a menu problem, tell us whether you used desktop or mobile and which language. Hide private details in screenshots.
