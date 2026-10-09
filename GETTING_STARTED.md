@@ -86,4 +86,4 @@ Open **More → RSI linking** or `/identity link`, then finish signing in on the
 
 To show your verified RSI handle on this server's boards, use `/identity display enabled:true`. Display is off by default and set separately for each server. Use `enabled:false` to hide it, or `/identity unlink` to remove the connection. Read the [privacy policy](PRIVACY_POLICY.md) for details.
 
-Everyday features work inside Discord. Account linking opens a sign-in page; the bot owner's dashboard is separate.
+Everyday features work inside Discord. Account linking opens a sign-in page. I use a separate private dashboard to maintain SCC; you don't need it to use the bot.
